@@ -16,9 +16,9 @@ class Material extends Widget
     /**
      * @var string the tag to use to render the element
      */
-    public $tagName = 'paper-header-panel';
+    public $tagName = 'paper-material';
     /**
-     * @var string the header-panel content
+     * @var string the material content
      */
     public $content;
     /**
