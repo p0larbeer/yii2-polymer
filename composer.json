@@ -1,0 +1,21 @@
+{
+  "name": "p0larbeer/yii2-polymer",
+  "description": "This extension provides the Polymer 1.0 integration for the Yii framework 2.0",
+  "type": "yii2-extension",
+  "require": {
+    "yiisoft/yii2": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "p0larbeer\\yii\\polymer\\": ""
+    }
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "p0larbeer",
+      "email": "p0larbeer@mail.ru"
+    }
+  ],
+  "minimum-stability": "dev"
+}
