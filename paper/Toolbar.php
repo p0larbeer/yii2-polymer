@@ -14,11 +14,11 @@ use p0larbeer\yii\polymer\Widget;
 class Toolbar extends Widget
 {
     /**
-     * @var string the tag to use to render the button
+     * @var string the tag to use to render the element
      */
     public $tagName = 'paper-toolbar';
     /**
-     * @var string the dialog content
+     * @var string the toolbar content
      */
     public $content;
     /**

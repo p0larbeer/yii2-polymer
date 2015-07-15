@@ -14,7 +14,7 @@ use p0larbeer\yii\polymer\Widget;
 class Dialog extends Widget
 {
     /**
-     * @var string the tag to use to render the button
+     * @var string the tag to use to render the element
      */
     public $tagName = 'paper-dialog';
     /**
