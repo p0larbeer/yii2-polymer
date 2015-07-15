@@ -12,6 +12,6 @@ namespace p0larbeer\yii\polymer;
 class FontRobotoAsset extends PolymerAsset
 {
     public $href = [
-        'paper-button/paper-button.html'
+        'font-roboto/roboto.html'
     ];
 }
