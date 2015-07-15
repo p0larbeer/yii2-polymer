@@ -24,7 +24,7 @@ class PolymerAsset extends AssetBundle
      * @var array
      */
     public $depends =[
-        'p0larbeer\yii\polymer\WebcomponentsAsset'
+        //'p0larbeer\yii\polymer\WebcomponentsAsset'
     ];
 
     public function registerAssetFiles($view)
