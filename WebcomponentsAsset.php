@@ -21,7 +21,7 @@ class WebcomponentsAsset extends AssetBundle
      * @var array
      */
     public $js =[
-        'webcomponentsjs/webcomponents.min.js'
+        'webcomponentsjs/webcomponents-lite.min.js'
     ];
     public $jsOptions =[
         'position'=>View::POS_HEAD
