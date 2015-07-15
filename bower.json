@@ -1,0 +1,7 @@
+{
+  "name": "yii2-polymer",
+  "dependencies": {
+    "iron-elements": "PolymerElements/iron-elements#^1.0",
+    "paper-elements": "PolymerElements/paper-elements#^1.0"
+  }
+}
