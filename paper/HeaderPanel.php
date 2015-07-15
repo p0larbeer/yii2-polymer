@@ -46,7 +46,7 @@ class HeaderPanel extends  Widget
         $this->options['at-top'] = $this->atTop;
         $this->options['shadow'] = $this->shadow;
         $this->options['mode'] = $this->mode;
-        return Html::beginTag($this->tagName,$this->options);
+        echo Html::beginTag($this->tagName,$this->options);
     }
     public function run()
     {
