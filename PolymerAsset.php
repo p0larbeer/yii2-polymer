@@ -20,6 +20,12 @@ class PolymerAsset extends AssetBundle
      * @var array
      */
     public $href = [];
+    /**
+     * @var array
+     */
+    public $depends =[
+        'p0larbeer\yii\polymer\WebcomponentsAsset'
+    ];
 
     public function registerAssetFiles($view)
     {

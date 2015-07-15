@@ -9,6 +9,7 @@
 namespace p0larbeer\yii\polymer;
 
 use yii\web\AssetBundle;
+use yii\web\View;
 
 class WebcomponentsAsset extends AssetBundle
 {
@@ -21,6 +22,9 @@ class WebcomponentsAsset extends AssetBundle
      */
     public $js =[
         'webcomponentsjs/webcomponentsjs.min.js'
+    ];
+    public $jsOptions =[
+        'position'=>View::POS_HEAD
     ];
 
 }
