@@ -37,9 +37,7 @@ class Button extends Widget
     }
     public function run()
     {
-        if($this->raised){
-            $this->options['raised'];
-        }
+        $this->options['raised'] = $this->raised;
         return Html::tag(
             $this->tagName,
             $this->encodeLabel ? Html::encode($this->label) : $this->label,
