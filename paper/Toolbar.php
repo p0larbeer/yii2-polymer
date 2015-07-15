@@ -11,7 +11,7 @@ namespace p0larbeer\yii\polymer\paper;
 use yii\helpers\Html;
 use p0larbeer\yii\polymer\Widget;
 
-class PaperToolbar extends Widget
+class Toolbar extends Widget
 {
     /**
      * @var string the tag to use to render the button
@@ -29,7 +29,7 @@ class PaperToolbar extends Widget
     public function init()
     {
         $view = $this->getView();
-        PaperToolbarAsset::register($view);
+        ToolbarAsset::register($view);
     }
     public function run()
     {
