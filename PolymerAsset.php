@@ -15,7 +15,7 @@ class PolymerAsset extends AssetBundle
     /**
      * @var string
      */
-    public $sourcePath = 'p0larbeer/yii/polymer/assets';
+    public $sourcePath = '@vendor/p0larbeer/yii2-polymer/assets';
     /**
      * @var array
      */
