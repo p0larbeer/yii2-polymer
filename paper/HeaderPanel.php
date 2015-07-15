@@ -18,10 +18,6 @@ class HeaderPanel extends  Widget
      */
     public $tagName = 'paper-header-panel';
     /**
-     * @var string the header-panel content
-     */
-    public $content;
-    /**
      * @var string The class used in waterfall-tall mode.
      * Change this if the header accepts a different class for toggling height, e.g. "medium-tall"
      */
@@ -44,20 +40,17 @@ class HeaderPanel extends  Widget
     {
         $view = $this->getView();
         HeaderPanelAsset::register($view);
-    }
-    public function run()
-    {
         if($this->tallClass !== 'tall'){
             $this->options['tall-class'] = $this->tallClass;
         }
         $this->options['at-top'] = $this->atTop;
         $this->options['shadow'] = $this->shadow;
         $this->options['mode'] = $this->mode;
-        return Html::tag(
-            $this->tagName,
-            $this->content,
-            $this->options
-        );
+        return Html::beginTag($this->tagName,$this->options);
+    }
+    public function run()
+    {
+        return Html::endTag($this->tagName);
     }
 }
 
