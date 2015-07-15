@@ -10,7 +10,7 @@ namespace p0larbeer\yii\polymer\paper;
 
 use p0larbeer\yii\polymer\PolymerAsset;
 
-class PaperToolbarAsset extends PolymerAsset
+class ToolbarAsset extends PolymerAsset
 {
     public $href = [
         'paper-toolbar/paper-toolbar.html'
