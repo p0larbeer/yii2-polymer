@@ -4,6 +4,9 @@
  * User: p0larbeer
  * Date: 16.07.15
  * Time: 14:56
+ *
+ * Documentation:
+ * <paper-item> is a non-interactive list item. By default, it is a horizontal flexbox.
  */
 
 namespace p0larbeer\yii\polymer\paper;
