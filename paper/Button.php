@@ -14,7 +14,7 @@ use p0larbeer\yii\polymer\Widget;
 class Button extends Widget
 {
     /**
-     * @var string the tag to use to render the button
+     * @var string the tag to use to render the element
      */
     public $tagName = 'paper-button';
     /**
@@ -26,7 +26,7 @@ class Button extends Widget
      */
     public $encodeLabel = true;
     /**
-     * @var bool If true, the button should be styled with a shadow.
+     * @var boolean If true, the button should be styled with a shadow.
      */
     public $raised = false;
 
