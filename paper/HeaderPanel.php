@@ -4,6 +4,11 @@
  * User: p0larbeer
  * Date: 16.07.15
  * Time: 1:00
+ *
+ * Documentation:
+ * paper-header-panel contains a header section and a content panel section.
+ * Important: The paper-header-panel will not display if its parent does not have a height.
+ * Using layout classes, you can make the paper-header-panel fill the screen
  */
 
 namespace p0larbeer\yii\polymer\paper;
@@ -53,4 +58,3 @@ class HeaderPanel extends  Widget
         return Html::endTag($this->tagName);
     }
 }
-
