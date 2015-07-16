@@ -4,6 +4,9 @@
  * User: p0larbeer
  * Date: 15.07.15
  * Time: 14:41
+ *
+ * paper-button is a button. When the user touches the button, a ripple effect emanates from the point of contact.
+ * It may be flat or raised. A raised button is styled with a shadow.
  */
 
 namespace p0larbeer\yii\polymer\paper;
