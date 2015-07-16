@@ -4,6 +4,12 @@
  * User: p0larbeer
  * Date: 15.07.15
  * Time: 16:30
+ *
+ * Documentation:
+ * <paper-dialog> is a dialog with Material Design styling and optional animations when it is opened or closed.
+ * It provides styles for a header, content area, and an action area for buttons.
+ * You can use the <paper-dialog-scrollable element (in its own repository) if you need a scrolling content area.
+ * See Polymer.PaperDialogBehavior for specifics.
  */
 
 namespace p0larbeer\yii\polymer\paper;
