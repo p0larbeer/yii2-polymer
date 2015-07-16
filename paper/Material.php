@@ -4,6 +4,10 @@
  * User: p0larbeer
  * Date: 16.07.15
  * Time: 1:29
+ *
+ * Documentation:
+ * paper-material is a container that renders two shadows on top of each other to create the effect
+ * of a lifted piece of paper.
  */
 
 namespace p0larbeer\yii\polymer\paper;
