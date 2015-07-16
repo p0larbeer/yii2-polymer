@@ -4,6 +4,11 @@
  * User: p0larbeer
  * Date: 16.07.15
  * Time: 15:03
+ *
+ * Documentation:
+ * paper-checkbox is a button that can be either checked or unchecked. User can tap the checkbox to check or uncheck it.
+ * Usually you use checkboxes to allow user to select multiple options from a set. If you have a single ON/OFF option,
+ * avoid using a single checkbox and use paper-toggle-button instead.
  */
 
 namespace p0larbeer\yii\polymer\paper;
