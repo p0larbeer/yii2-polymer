@@ -4,6 +4,11 @@
  * User: p0larbeer
  * Date: 16.07.15
  * Time: 0:27
+ *
+ * Documentation:
+ * paper-toolbar is a horizontal bar containing items that can be used for label, navigation, search and actions.
+ * The items place inside the paper-toolbar are projected into a class="horizontal center layout"
+ * container inside of paper-toolbar's Shadow DOM. You can use flex attributes to control the items' sizing.
  */
 
 namespace p0larbeer\yii\polymer\paper;
