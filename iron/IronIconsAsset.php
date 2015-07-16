@@ -8,7 +8,7 @@
  *
  * A set of icons for use with iron-icon
  */
-namespace p0larbeer\yii\polymer\paper;
+namespace p0larbeer\yii\polymer\iron;
 
 use p0larbeer\yii\polymer\PolymerAsset;
 
