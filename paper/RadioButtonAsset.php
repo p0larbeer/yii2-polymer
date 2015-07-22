@@ -13,6 +13,6 @@ use p0larbeer\yii\polymer\PolymerAsset;
 class RadioButtonAsset extends PolymerAsset
 {
     public $href = [
-        'paper-radio-button/paper-radio-buton.html'
+        'paper-radio-button/paper-radio-button.html'
     ];
 }
