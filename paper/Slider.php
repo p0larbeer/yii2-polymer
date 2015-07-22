@@ -19,6 +19,10 @@ use p0larbeer\yii\polymer\Widget;
 class Slider extends Widget
 {
     /**
+     * @var string the tag to use to render the element
+     */
+    public $tagName = 'paper-slider';
+    /**
      * @var int
      */
     public $value;
