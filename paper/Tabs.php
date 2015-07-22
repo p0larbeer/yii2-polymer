@@ -54,7 +54,6 @@ class Tabs extends Widget
 
     public function run()
     {
-
         return Html::tag(
             $this->tagName,
             $this->renderItems(),
@@ -72,11 +71,9 @@ class Tabs extends Widget
         foreach ($this->items as $n => $item) {
             if ($item['active']) {
                 $this->options['selected'] = $n;
+                unset($item['active']);
             }
-            $html .= Tab::widget([
-                'label'=>$item['label'],
-                'options'=>$item['options']
-            ]);
+            $html .= Tab::widget($item);
         }
         return $html;
     }
