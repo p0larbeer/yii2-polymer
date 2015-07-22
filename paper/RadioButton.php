@@ -26,6 +26,10 @@ class RadioButton extends Widget
      */
     public $label;
     /**
+     * @var string the name attribute
+     */
+    public $name;
+    /**
      * @var boolean whether the label should be HTML-encoded.
      */
     public $encodeLabel = true;
@@ -45,6 +49,7 @@ class RadioButton extends Widget
     }
     public function run()
     {
+        $this->options['name'] = $this->name;
         $this->options['checked'] = $this->checked;
         $this->options['toggles'] = $this->toggles;
         return Html::tag(
