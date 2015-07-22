@@ -71,7 +71,11 @@ class Pages extends Widget
                 $this->options['selected'] = $n;
                 unset($item['selected']);
             }
-            $html .= Html::tag('div', $item['content'], $item['options']);
+            $html .= Html::tag(
+                'div',
+                $item['content'],
+                is_null($item['options']) ? [] : $item['options']
+            );
         }
         return $html;
     }
