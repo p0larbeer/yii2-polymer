@@ -19,9 +19,9 @@ use p0larbeer\yii\polymer\Widget;
  * For example:
  *
  * ```php
- * echo Form::begin($options);
- * echo  Paper\Input::widget(['name'=>'Name','label'=>'Label']);
- * echo Form::end();
+ * Form::begin($options);
+ * echo  Paper\Input::widget(['options'=>['name'=>'Name'],'label'=>'Label']);
+ * Form::end();
  * ```
  *
  */
