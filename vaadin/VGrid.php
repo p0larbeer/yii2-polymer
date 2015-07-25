@@ -4,7 +4,6 @@
  * User: p0larbeer
  * Date: 25.07.15
  * Time: 13:05
-
  */
 
 namespace p0larbeer\yii\polymer\vaadin;
@@ -27,7 +26,6 @@ use p0larbeer\yii\polymer\Widget;
  * ```
  *
  */
-
 class VGrid extends Widget
 {
     /**
@@ -49,17 +47,19 @@ class VGrid extends Widget
 
     public function run()
     {
-        echo Html::beginTag('table');
-        $this->renderColumns();
-        echo Html::endTag('table');
-        return Html::endTag($this->tagName);
+        $html = Html::beginTag('table')
+            . Html::beginTag('colgroup')
+            . $this->renderColumns()
+            . Html::endTag('colgroup')
+            . Html::endTag('table');
+        return $html . Html::endTag($this->tagName);
     }
 
     private function renderColumns()
     {
         $html = '';
-        foreach ($this->col as $col){
-            $html .= Html::beginTag('col',$col);
+        foreach ($this->col as $col) {
+            $html .= Html::beginTag('col', $col);
         }
         return $html;
     }
