@@ -20,8 +20,8 @@ use p0larbeer\yii\polymer\Widget;
  * ```php
  * echo VGrid::widget([
  *     'col' => [
- *         ['name' => 'user.name.first','header-text'='First Name'],
- *         ['name' => 'user.name.last','header-text'='Last Name'],
+ *         ['name' => 'user.name.first', 'header-text' => 'First Name'],
+ *         ['name' => 'user.name.last', 'header-text' => 'Last Name']
  *     ],
  * ]);
  * ```
