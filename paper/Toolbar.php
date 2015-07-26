@@ -16,6 +16,19 @@ namespace p0larbeer\yii\polymer\paper;
 use yii\helpers\Html;
 use p0larbeer\yii\polymer\Widget;
 
+/**
+ * For example:
+ *
+ * ```php
+ * echo Toolbar::begin();
+ * ```
+ * html code
+ *
+ * ```php
+ * echo Toolbar::end();
+ * ```
+ *
+ */
 class Toolbar extends Widget
 {
     /**
@@ -35,13 +48,12 @@ class Toolbar extends Widget
     {
         $view = $this->getView();
         ToolbarAsset::register($view);
+        echo Html::beginTag($this->tagName, $this->options);
     }
+
     public function run()
     {
-        return Html::tag(
-            $this->tagName,
-            $this->encodeContent ? Html::encode($this->content) : $this->content,
-            $this->options
-        );
+        $html = $this->encodeContent ? Html::encode($this->content) : $this->content;
+        return $html . Html::endTag($this->tagName);
     }
 }
